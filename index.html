@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <base href="/learn-python-uv/" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Learn</title>
@@ -20,17 +21,40 @@
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <div class="progress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <div
+      class="progress"
+      role="progressbar"
+      aria-label="Reading progress"
+      aria-valuemin="0"
+      aria-valuemax="100"
+      aria-valuenow="0"
+    >
       <div class="progress__bar"></div>
     </div>
     <header class="header">
-      <button class="icon-btn menu-btn" type="button" aria-label="Open topics" aria-expanded="false">
-        <svg class="i-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
-        <svg class="i-close" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
+      <button
+        class="icon-btn menu-btn"
+        type="button"
+        aria-label="Open topics"
+        aria-expanded="false"
+      >
+        <svg class="i-open" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg class="i-close" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 6l12 12M18 6 6 18" />
+        </svg>
       </button>
-      <a class="logo" href="#home"><span class="logo__mark"></span><span class="logo__word">Learn</span></a>
+      <a class="logo" href="#home"
+        ><span class="logo__mark"></span
+        ><span class="logo__word">Learn</span></a
+      >
       <div class="crumb" id="crumb"></div>
-      <button class="icon-btn theme-btn" type="button" aria-label="Switch theme"></button>
+      <button
+        class="icon-btn theme-btn"
+        type="button"
+        aria-label="Switch theme"
+      ></button>
     </header>
     <div class="layout">
       <nav class="sidebar sidebar--left" aria-label="Topics">
@@ -43,7 +67,9 @@
         <ul class="subtopics"></ul>
         <div class="toc-progress">
           <strong class="toc-progress__pct">0%</strong> read
-          <div class="toc-progress__track"><div class="toc-progress__fill"></div></div>
+          <div class="toc-progress__track">
+            <div class="toc-progress__fill"></div>
+          </div>
         </div>
       </aside>
     </div>
